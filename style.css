@@ -1,0 +1,241 @@
+/*Configurações Globais*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Página inicial (Home)*/
+
+/*Cabeçalho*/
+.home-header {
+    background-color: #0477be;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    background-color: white;
+    width: 12%;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.home-nav {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-nav ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-nav-link {
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition-duration: .6s;
+}
+
+.home-nav-link:hover {
+    background-color: #0793eb;
+}
+
+/*Conteúdo principal*/
+
+/*Seção de viagens*/
+.home-viagens {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home-viagens img {
+    padding: 10px;
+}
+
+.home-viagens figcaption {
+    padding-bottom: 3px;
+}
+
+.figbar {
+    width: 50%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0477be;
+}
+
+/*Seção sobre*/
+.home-sobre {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-sobre img {
+    border: 4px solid #0477be;
+}
+
+.home-sobre-texto {
+    width: 40%;
+}
+
+.home-sobre-texto h1 {
+    font-weight: lighter;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0477be;
+    margin-bottom: 20px;
+}
+
+.home-sobre-texto p {
+    padding-bottom: 10px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+/*Rodapé*/
+.home-footer {
+    background-color: #0477bea6;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+/*Página de postagens (Postagens)*/
+
+.postagens-body {
+    background-image: url(imagens/backgrounds/1989241.jpg);
+
+}
+
+/*Posts*/
+
+.postagens {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.posts {
+    background-color: #fff;
+    width: 350px;
+    height: 430px;
+    border: 2px solid #434286;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px #434286;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.posts figure img {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 15px;
+    border: 1px solid #434286;
+}
+
+.posts-title {
+    color: #0477be;
+    font-weight: normal;
+}
+
+.posts-icons {
+    padding-left: 20px;
+    margin-top: 20px;
+    align-self: flex-start;
+    display: flex;
+}
+
+.posts-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+/*Página de contato (Contato)*/
+
+.formulario-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.formulario-decoration {
+    color: #0477be;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-dec-title {
+    width: 100%;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.form-dec-title h1 {
+    border-bottom: 2px solid #0477be;
+    margin: 10px;
+    font-size: 3em;
+}
+.form-dec-title p {
+    text-indent: 15px;
+}
+
+.formulario-decoration img {
+    width: 550px;
+    height: 550px;
+}
+
+.formulario {
+    width: 45%;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-box label {
+    padding-bottom: 10px;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px 0 10px 5px;
+}
+
+.form-box textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px 0 10px 5px;
+}
+
+.submit-button {
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+/*Rodapé*/
+
+.contato-footer {
+    margin-top: 40px;
+}
